@@ -12,6 +12,7 @@ body {
   background-size: cover;
   text-align: center;
   color: white;
+  border-right: 2px soild;
 }
 
 .top-wrapper h1 {
@@ -53,14 +54,59 @@ body {
 
 .bio {
   margin-top: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 650px;
   background-color: rgba(46, 204, 113, 0.1);
   border-radius: 80px;
+}
+
+@media ( max-width: 670px ) {
+  .main {
+    position: absolute;
+    left: 100px;
+    width: 100%;
+    margin-top: 200px;
+    padding: 0px 0px;
+  }
+  
+  .top-wrapper {
+    width : 100%;
+  }
+  
+  .contents p{
+  text-align: justify;
+  font-size: 30px;
+  width: 300px;
+  }
+  
+  .data {
+    margin-bottom: 80px;
+    width: 50%;
+    padding: 0px;
+    float: left;
+    color: white;
+    background-color: rgb(60, 179, 113);
+    box-shadow: 0 12px #1a7940;
+  }
+  
+  .data img {
+    width: 50px;
+  }
+  
+  .biodata h3 {
+    font-size: 30px;
+  }
+  
+  .data:hover {
+  transition: none;
+  position: relative;
+  bottom: 0px;
+  }
 }
 
 .data {
   padding: 10px;
   border-radius: 100px;
+  float: left;
 }
 
 .terakhir {
@@ -130,8 +176,12 @@ body {
   color: white;
 }
 
-.satu span{
+.extrasatu span{
   background-color: #40E1D1;
+}
+
+.extrasatu p {
+  text-align: justify;
 }
 
 .dua span{
@@ -154,6 +204,7 @@ body {
 .sponsorship .progate {
   height: 100px;
   margin-top: 50px;
+  width: 40px;
 }
 .sponsorship a {
   font-size: 20px;
@@ -176,5 +227,20 @@ body {
   position: relative;
   bottom: -5px;
   filter: drop-shadow(10px 10px 5px #222);
+}
+
+@media ( max-width: 670px ){
+  .satu {
+    margin-bottom: 3000px;
+  }
+  .dua {
+    margin-top: 2000px;
+  }
+  .extrasatu{
+    margin-bottom: 300px;
+  }
+  .sponsorship p{
+    font-size: 10px;
+  }
 }
 /* extra end */
