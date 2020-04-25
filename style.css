@@ -201,11 +201,16 @@ body {
 .sponsorship .digitalent {
   height: 200px;
 }
-.sponsorship progate {
+.sponsorship .progate {
   height: 100px;
   margin-top: 50px;
   width: 40px;
 }
+
+.progate {
+  width:300px;
+}
+
 .sponsorship a {
   font-size: 20px;
   font-style: bold;
