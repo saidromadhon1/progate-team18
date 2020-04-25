@@ -59,6 +59,11 @@ body {
   border-radius: 100px;
 }
 
+.terakhir{
+  position: relative;
+  left: 250px;
+}
+
 .data:hover{
   transition: all 0.3s;
   position: relative;
