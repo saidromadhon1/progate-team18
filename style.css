@@ -4,7 +4,8 @@ body {
 
 .top-wrapper {
   position: absolute;
-  top: 0;left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   padding: 180px 0 100px 0;
   background-image: url(icons/header.png);
@@ -15,12 +16,13 @@ body {
 
 .top-wrapper h1 {
   font-size: 45px;
-  letter-spacing: 5px; 
+  letter-spacing: 5px;
 }
 
 .main {
   position: absolute;
-  top: 570px;left: 100px;
+  top: 570px;
+  left: 100px;
   width: 1000px;
   padding: 20px 80px;
 }
@@ -45,8 +47,8 @@ body {
 }
 
 .bio table {
-   margin-left:10px;
-   width: 430px;
+  margin-left: 10px;
+  width: 430px;
 }
 
 .bio {
@@ -61,12 +63,12 @@ body {
   border-radius: 100px;
 }
 
-.terakhir{
+.terakhir {
   position: relative;
   left: 250px;
 }
 
-.data:hover{
+.data:hover {
   transition: all 0.3s;
   position: relative;
   bottom: 7px;
@@ -76,7 +78,7 @@ body {
 }
 
 .bio img {
-  width:100px;
+  width: 100px;
 }
 
 .contents table {
@@ -92,7 +94,7 @@ body {
   transition: all 0.5s;
 }
 
-.contents img:hover{
+.contents img:hover {
   width: 300px;
 }
 
@@ -105,3 +107,74 @@ body {
   word-spacing: 4px;
   font-size: 16px;
 }
+
+/* untuk bagian extra */
+.extra {
+  width: inherit;
+  height: 300px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+
+.extra-title {
+  border-bottom: 4px solid #dee7ec;
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.extra-title span {
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.satu span{
+  background-color: #40E1D1;
+}
+
+.dua span{
+  background-color: #00C5CD;
+}
+
+.extra-contents-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sponsorship {
+  height: 200px;
+  margin: 20px;
+}
+
+.sponsorship .digitalent {
+  height: 200px;
+}
+.sponsorship .progate {
+  height: 100px;
+  margin-top: 50px;
+}
+.sponsorship a {
+  font-size: 20px;
+  font-style: bold;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+
+.sponsorship:hover {
+  transition: all 0.3s;
+  position: relative;
+  bottom: 7px;
+  filter: drop-shadow(10px 10px 5px #222);
+}
+
+.sponsorship:active {
+  transition: all 0.1s;
+  position: relative;
+  bottom: -5px;
+  filter: drop-shadow(10px 10px 5px #222);
+}
+/* extra end */
