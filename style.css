@@ -193,6 +193,9 @@ header {
   text-align: center;
 }
 
+.extra {
+  margin-top:120px;
+}
 .extra-title span {
   padding: 10px;
   border-radius: 20px;
