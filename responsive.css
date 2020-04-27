@@ -1,0 +1,48 @@
+@media ( max-width: 670px ){
+  .top-wrapper {
+    width: 100%;
+  }
+  .main {
+    position: absolute;
+    left: 100px;
+    width: 100%;
+    margin-top: 200px;
+    padding: 0px 0px;
+  }
+
+  .tentang {
+    width: 100%;
+  }
+
+  .tentang p {
+    text-align: justify;
+    font-size: 30px;
+  }
+
+  .data {
+    margin-bottom: 80px;
+    width: 50%;
+    pading: 0px;
+    float: left;
+    color: white;
+    background-color: rgb(60, 179, 113);
+    box-shadow: 0 12px #1a7940;
+  }
+
+  .biodata h3 {
+    font-size: 30px;
+  }
+
+  .data:hover {
+    transition: none;
+    position: relative;
+    bottom: 0px;
+  }
+
+  .satu {
+    margin-bottom: 3000px;
+  }
+  .dua {
+    margin-top: 2000px;
+  }
+}
