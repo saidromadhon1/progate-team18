@@ -147,6 +147,12 @@ header {
   word-spacing: 4px;
   font-size: 20px;
 }
+
+.tentang hr {
+  margin-top:80px;
+  opacity: 0.6;
+  width: 500px;
+}
 /* bagian utama end */
 
 /* untuk bagian extra */
@@ -279,6 +285,7 @@ header {
   }
   .tentang p {
     font-size: 14px;
+    text-align: justify;
   }
   .data {
     position: relative;
@@ -298,6 +305,10 @@ header {
 
   .top-wrapper {
     width: 100%;
+  }
+
+  .biodata h3 {
+    font-size: 40px;
   }
 }
 /* web end */
