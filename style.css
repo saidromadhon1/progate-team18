@@ -208,9 +208,8 @@ body {
 
   .data {
     margin-bottom: 80px;
-    width: 50%;
+    width: 25%;
     pading: 0px;
-    float: left;
     color: white;
     background-color: rgb(60, 179, 113);
     box-shadow: 0 12px #1a7940;
