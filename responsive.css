@@ -1,52 +1,5 @@
 @media ( max-width: 670px ){
   .top-wrapper {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 700px;
-  }
-  .main {
     width: 100%;
-    margin: 0 auto;
-  }
-
-  .tentang {
-    width: 100%;
-  }
-
-  .tentang p {
-    text-align: justify;
-    font-size: 30px;
-  }
-
-  .bio {
-    width: 50%;
-  }
-
-  .data {
-    margin-bottom: 80px;
-    width: 50%;
-    pading: 0px;
-    float: left;
-    color: white;
-    background-color: rgb(60, 179, 113);
-    box-shadow: 0 12px #1a7940;
-  }
-
-  .biodata h3 {
-    font-size: 30px;
-  }
-
-  .data:hover {
-    transition: none;
-    position: relative;
-    bottom: 0px;
-  }
-
-  .satu {
-    margin-bottom: 3000px;
-  }
-  .dua {
-    margin-top: 2000px;
-  }
+  }    
 }
