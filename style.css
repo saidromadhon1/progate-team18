@@ -338,6 +338,13 @@ header {
   .biodata h3 {
     font-size: 40px;
   }
+
+  .footer {
+    height: 170px;
+  }
+  .footer-list {
+    font-size: 30px;
+  }
 }
 /* web end */
 
