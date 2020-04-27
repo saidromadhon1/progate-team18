@@ -261,6 +261,7 @@ header {
   .bio {
     margin-bottom: 990px;
     padding-left: 110px;
+    width:85%;
   }
   .data td {
    padding: 10px;
@@ -272,6 +273,9 @@ header {
   }
   .data img {
     width: 200px;
+  }
+  .top-wrapper {
+    width: 100%;
   }
 }
 /* web end */
