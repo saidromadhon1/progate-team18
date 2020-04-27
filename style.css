@@ -120,6 +120,28 @@ header {
   margin-left:124px;
 }
 
+.data .fb {
+  width:30px;
+  margin-right: 10px;
+}
+
+.data .ig {
+  width:30px;
+  margin-left: 10px;
+}
+
+.data .fb:hover {
+  position: relative;
+  bottom:7px;
+  box-shadow:0px 4px 12px 10px rgba(34, 49, 52, 0.2);
+}
+
+.data .ig:hover {
+  position: relative;
+  bottom:7px;
+  box-shadow:0px 4px 12px 10px rgba(34, 49, 52, 0.2);
+}
+
 .info {
   color: rgb(16, 197, 156);
 }
