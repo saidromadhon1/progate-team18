@@ -52,15 +52,13 @@ header {
   color: white;
 }
 
-    
-
-
 .main {
   position: absolute;
   top: 570px;
   left: 100px;
   width: 1000px;
   padding: 20px 80px;
+  margin-bottom: 500px;
 }
 
 .section-title {
@@ -146,10 +144,11 @@ header {
 }
 
 /* untuk bagian extra */
-.extra {
+.extra-satu {
   width: inherit;
   height: 300px;
   margin-bottom: 50px;
+  margin-top: 2400px;
   box-sizing: border-box;
   text-align: justify;
 }
@@ -218,5 +217,26 @@ header {
 }
 /* extra end */
 
+.footer {
+  background-color: rgba(34, 49, 52, 0.9);
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+  margin-top: 70px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+  list-style: none;
+}
 
 /*web responsive*/
