@@ -100,11 +100,15 @@ header {
   padding-right:2px;
   border-radius: 50px;
   float: left;
-  font-size: 20px;
+  font-size: 18px;
   display: inline-block;
   box-shadow:0px 4px 12px 10px rgba(34, 49, 52, 0.2);
   margin-bottom: 40px;
   margin-right: 30px;
+}
+
+.info {
+  color: rgb(16, 197, 156);
 }
 
 /* .data:hover {
