@@ -8,9 +8,9 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.6);
-  position:fixed;
-  top:0;
-  z-index:10;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .header-left {
@@ -20,10 +20,10 @@ header {
 
 .header-left img {
   margin-top: 10px;
-  width:180px;
+  width: 180px;
 }
 
-.header-left span{
+.header-left span {
   background-color: rgba(16, 197, 156, 1);
   line-height: 47px;
   padding: 0 25px;
@@ -31,7 +31,7 @@ header {
   display: block;
   font-size: 30px;
   margin-left: 0px;
-  width:200px;
+  width: 200px;
 }
 
 .container {
@@ -40,6 +40,7 @@ header {
   margin: 0 auto;
   margin-left: 0px;
 }
+
 /* header end */
 
 /* bagian utama (Muhammad Said Romadhon) */
@@ -57,7 +58,7 @@ header {
   font-size: 45px;
   width: 560px;
   color: white;
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 .main {
@@ -76,6 +77,7 @@ header {
   padding: 10px;
   border-radius: 20px;
   color: white;
+  font-size: 20px;
 }
 
 .biodata {
@@ -84,8 +86,9 @@ header {
 
 .biodata h3 {
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   color: gray;
+  text-transform: uppercase;
 }
 
 .bio {
@@ -97,28 +100,24 @@ header {
 
 .data {
   padding: 14px;
-  padding-right:2px;
+  padding-right: 2px;
   border-radius: 50px;
   float: left;
   font-size: 18px;
   display: inline-block;
-  box-shadow:0px 4px 12px 10px rgba(34, 49, 52, 0.2);
+  box-shadow: 0px 4px 12px 10px rgba(34, 49, 52, 0.2);
   margin-bottom: 40px;
   margin-right: 30px;
 }
 
-.info {
-  color: rgb(16, 197, 156);
-}
-
-/* .data:hover {
-  transition: all 0.3s;
+.data:hover {
+  transition: all 0.5s;
   position: relative;
-  bottom: 7px;
+  bottom: 10px;
   color: white;
   background-color: rgb(60, 179, 113);
-  box-shadow: 0 12px #1a7940;
-} */
+  box-shadow: 0px 10px 12px 10px rgb(8, 78, 39);
+}
 
 .bio img {
   width: 150px;
@@ -134,7 +133,7 @@ header {
 
 .contents img {
   width: 150px;
-  filter:drop-shadow(8px 5px 5px #222);
+  filter: drop-shadow(8px 5px 5px #222);
   transition: all 0.5s;
 }
 
@@ -153,10 +152,11 @@ header {
 }
 
 .tentang hr {
-  margin-top:80px;
+  margin-top: 80px;
   opacity: 0.6;
   width: 500px;
 }
+
 /* bagian utama end */
 
 /* untuk bagian extra */
@@ -186,11 +186,11 @@ header {
   color: white;
 }
 
-.satu span{
+.satu span {
   background-color: #40E1D1;
 }
 
-.dua span{
+.dua span {
   background-color: #00C5CD;
 }
 
@@ -207,10 +207,12 @@ header {
 .sponsorship .digitalent {
   height: 200px;
 }
+
 .sponsorship .progate {
   height: 100px;
   margin-top: 50px;
 }
+
 .sponsorship a {
   font-size: 20px;
   font-style: bold;
@@ -234,6 +236,7 @@ header {
   filter: drop-shadow(10px 10px 5px #222);
   float: left;
 }
+
 /* extra end */
 
 /* footer */
@@ -248,7 +251,7 @@ header {
 .footer-logo img {
   float: left;
   font-size: 32px;
-  width:400px;
+  width: 400px;
 }
 
 .footer-list {
@@ -259,52 +262,67 @@ header {
   padding-bottom: 20px;
   list-style: none;
 }
+
+.footer-list a {
+  text-decoration: none;
+  font-style: bold;
+}
+
 /* footer end */
 
 /* web responsive (Muhammad Said Romadhon)*/
-@media (max-width: 1000px ) {
+@media (max-width: 1000px) {
   .extra-satu p {
     font-size: 30px;
   }
+
   .extra-satu {
     margin-bottom: 560px;
   }
+
   .section-title span {
     font-size: 40px;
   }
+
   .satu span {
     font-size: 40px;
   }
+
   .dua span {
     font-size: 40px;
   }
+
   .bio {
     margin-bottom: 990px;
     padding-left: 110px;
-    width:85%;
+    width: 85%;
   }
+
   .data td {
-   padding: 10px;
-   font-size: 30px;
+    padding: 10px;
+    font-size: 30px;
   }
+
   .tentang p {
     font-size: 14px;
     text-align: justify;
   }
+
   .data {
     position: relative;
     top: 0;
   }
+
   .data img {
     width: 200px;
   }
 
   .tentang img {
-    width:200px;
+    width: 200px;
   }
 
-  .tentang img:hover{
-    width:400px;
+  .tentang img:hover {
+    width: 400px;
   }
 
   .top-wrapper {
@@ -315,5 +333,5 @@ header {
     font-size: 40px;
   }
 }
-/* web end */
 
+/* web end */
