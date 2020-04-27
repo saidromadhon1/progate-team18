@@ -7,7 +7,7 @@ body {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(34, 49, 52, 0.6);
   position:fixed;
   top:0;
   z-index:10;
@@ -18,19 +18,27 @@ header {
   font-style: italic;
 }
 
+.header-left img {
+  margin-top: 10px;
+  width:180px;
+}
+
 .header-left span{
-  background-color: rgba(255, 255, 255, 0.3);
-  line-height: 65px;
+  background-color: rgba(16, 197, 156, 1);
+  line-height: 47px;
   padding: 0 25px;
   color: white;
   display: block;
   font-size: 30px;
+  margin-left: 0px;
+  width:200px;
 }
 
 .container {
   width: 1170px;
-  padding: 0 15px;
+  padding: 0;
   margin: 0 auto;
+  margin-left: 0px;
 }
 /* header end */
 
@@ -64,7 +72,7 @@ header {
 }
 
 .section-title span {
-  background-color: rgb(60, 179, 113);
+  background-color: rgba(16, 197, 156, 1);
   padding: 10px;
   border-radius: 20px;
   color: white;
@@ -219,16 +227,17 @@ header {
 
 /* footer */
 .footer {
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(16, 197, 156, 1);
   color: #fff;
   height: 120px;
   padding: 40px;
   margin-top: 70px;
 }
 
-.footer-logo {
+.footer-logo img {
   float: left;
   font-size: 32px;
+  width:400px;
 }
 
 .footer-list {
