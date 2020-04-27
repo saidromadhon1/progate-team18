@@ -19,6 +19,10 @@
     font-size: 30px;
   }
 
+  .bio {
+    width: 50%;
+  }
+
   .data {
     margin-bottom: 80px;
     width: 50%;
