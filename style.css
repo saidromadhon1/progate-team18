@@ -15,6 +15,7 @@ header {
 
 .header-left {
   float: left;
+  font-style: italic;
 }
 
 .header-left span{
@@ -37,17 +38,18 @@ header {
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(icons/header2.jpg);
-  background-size: cover;
+  background-size: 140%;
   text-align: center;
+  font-size: 30px;
   color: black;
-  backface-visibility: 0.5;
+  text-align: left;
 }
 
 .top-wrapper h1 {
   font-size: 45px;
-  letter-spacing: 5px;
-  background-color: rgba(44, 62, 80,0.7);
+  width: 560px;
   color: white;
+  margin-left:20px;
 }
 
 .main {
@@ -68,42 +70,46 @@ header {
   color: white;
 }
 
+.biodata {
+  margin-top: 70px;
+}
+
 .biodata h3 {
   text-align: center;
   font-size: 20px;
   color: gray;
 }
 
-.bio table {
-  margin-left: 80px;
-}
-
 .bio {
   margin-top: 100px;
-  margin-bottom: 580px;
-  margin-left: 60px;
-  background-color: rgba(46, 204, 113, 0.1);
+  margin-bottom: 500px;
+  margin-left: 20px;
   border-radius: 80px;
 }
 
 .data {
-  padding: 10px;
-  border-radius: 100px;
+  padding: 14px;
+  padding-right:2px;
+  border-radius: 50px;
   float: left;
-  font-size: 14px;
+  font-size: 20px;
+  display: inline-block;
+  box-shadow:0px 4px 12px 10px rgba(34, 49, 52, 0.2);
+  margin-bottom: 40px;
+  margin-right: 30px;
 }
 
-.data:hover {
+/* .data:hover {
   transition: all 0.3s;
   position: relative;
   bottom: 7px;
   color: white;
   background-color: rgb(60, 179, 113);
   box-shadow: 0 12px #1a7940;
-}
+} */
 
 .bio img {
-  width: 100px;
+  width: 150px;
 }
 
 .contents table {
@@ -116,6 +122,7 @@ header {
 
 .contents img {
   width: 100px;
+  filter:drop-shadow(8px 5px 5px #222);
   transition: all 0.5s;
 }
 
