@@ -253,10 +253,19 @@ header {
 /*web responsive*/
 @media (max-width: 1000px ) {
   .extra-satu p {
-    font-size: 20px;
+    font-size: 30px;
   }
   .extra-satu {
-    margin-bottom: 170px;
+    margin-bottom: 560px;
+  }
+  .section-title span {
+    font-size: 40px;
+  }
+  .satu span {
+    font-size: 40px;
+  }
+  .dua span {
+    font-size: 40px;
   }
   .bio {
     margin-bottom: 990px;
@@ -265,7 +274,10 @@ header {
   }
   .data td {
    padding: 10px;
-   font-size: 22px;
+   font-size: 30px;
+  }
+  .tentang p {
+    font-size: 14px;
   }
   .data {
     position: relative;
@@ -274,6 +286,15 @@ header {
   .data img {
     width: 200px;
   }
+
+  .tentang img {
+    width:200px;
+  }
+
+  .tentang img:hover{
+    width:400px;
+  }
+
   .top-wrapper {
     width: 100%;
   }
