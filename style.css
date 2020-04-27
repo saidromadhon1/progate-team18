@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-/* header */
+/* header (Muhammad Said Romadhon) */
 header {
   height: 65px;
   width: 100%;
@@ -257,7 +257,7 @@ header {
 }
 /* footer end */
 
-/*web responsive*/
+/* web responsive (Muhammad Said Romadhon)*/
 @media (max-width: 1000px ) {
   .extra-satu p {
     font-size: 30px;
