@@ -81,6 +81,7 @@ header {
 .bio {
   margin-top: 100px;
   margin-bottom: 580px;
+  margin-left: 60px;
   background-color: rgba(46, 204, 113, 0.1);
   border-radius: 80px;
 }
@@ -236,7 +237,7 @@ header {
 /*web responsive*/
 @media (max-width: 1000px ) {
   .extra-satu {
-
+    font-size: 14px;
   }
   .bio {
     margin-bottom: 1400px;
