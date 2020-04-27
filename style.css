@@ -3,6 +3,7 @@ body {
   margin: 0;
 }
 
+/* header */
 header {
   height: 65px;
   width: 100%;
@@ -11,11 +12,6 @@ header {
   top:0;
   z-index:10;
 }
-
-/*.logo {
-  width: 124px;
-  margin-top: 20px;
-}*/
 
 .header-left {
   float: left;
@@ -35,7 +31,9 @@ header {
   padding: 0 15px;
   margin: 0 auto;
 }
+/* header end */
 
+/* bagian utama (Muhammad Said Romadhon) */
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(icons/header2.jpg);
@@ -132,6 +130,7 @@ header {
   word-spacing: 4px;
   font-size: 16px;
 }
+/* bagian utama end */
 
 /* untuk bagian extra */
 .extra-satu {
@@ -209,6 +208,7 @@ header {
 }
 /* extra end */
 
+/* footer */
 .footer {
   background-color: rgba(34, 49, 52, 0.9);
   color: #fff;
@@ -230,7 +230,9 @@ header {
   padding-bottom: 20px;
   list-style: none;
 }
+/* footer end */
 
+/*web responsive*/
 @media (max-width: 670px ) {
   .extra-satu {
   margin-top: 1000px;
@@ -242,5 +244,5 @@ header {
     font-size:12px;
   }
 }
+/* web end */
 
-/*web responsive*/
