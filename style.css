@@ -145,7 +145,7 @@ header {
 .tentang p {
   text-align: center;
   word-spacing: 4px;
-  font-size: 16px;
+  font-size: 20px;
 }
 /* bagian utama end */
 
@@ -157,6 +157,7 @@ header {
   margin-top: 30px;
   padding-left: 40px;
   padding-right: 40px;
+  font-size: 20px;
   box-sizing: border-box;
   text-align: justify;
 }
