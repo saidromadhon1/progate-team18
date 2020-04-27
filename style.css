@@ -129,7 +129,7 @@ header {
 }
 
 .contents img {
-  width: 100px;
+  width: 150px;
   filter:drop-shadow(8px 5px 5px #222);
   transition: all 0.5s;
 }
