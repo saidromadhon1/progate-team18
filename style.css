@@ -153,11 +153,13 @@ header {
 .data .fb {
   width:30px;
   margin-right: 10px;
+  transition: all 1s;
 }
 
 .data .ig {
   width:30px;
   margin-left: 10px;
+  transition: all 0.5s;
 }
 
 .data .fb:hover {
