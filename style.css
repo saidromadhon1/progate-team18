@@ -93,11 +93,6 @@ header {
   float: left;
 }
 
-.terakhir {
-  position: relative;
-  left: 250px;
-}
-
 .data:hover {
   transition: all 0.3s;
   position: relative;
@@ -234,6 +229,18 @@ header {
 .footer-list li {
   padding-bottom: 20px;
   list-style: none;
+}
+
+@media (max-width: 670px ) {
+  .extra-satu {
+  margin-top: 1000px;
+  }
+  .bio {
+    margin-bottom: 2000px;
+  }
+  .data {
+    font-size:12px;
+  }
 }
 
 /*web responsive*/
