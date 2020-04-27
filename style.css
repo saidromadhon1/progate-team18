@@ -643,7 +643,7 @@ header {
       top: 0;
       margin-left: 0px;
       margin-right: 30px;
-      height: 500px;
+      height: 550px;
     }
     .data img {
       width: 200px;
@@ -674,4 +674,5 @@ header {
       font-size: 30px;
     }
   }
+}
   /* web end */
